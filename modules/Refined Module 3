@@ -1,0 +1,56 @@
+Create a short list of candidate activities (e.g., attractions, restaurants, parks). Each activity must include: type, estimated duration, cost range, and distance.
+
+Use a simple loop to build days:
+
+for each day:
+
+Morning (8:00–12:00)
+
+Pick up to 2 activities near lodging.
+
+If no attractions are available, suggest a location that does not depend on opening hours (e.g., public park).
+
+If outdoor weather is unsafe (e.g., thunderstorm, heavy rain), suggest an indoor activity instead.
+
+Midday (12:00–15:00)
+
+Pick up to 2 nearby attractions or lunch options.
+
+If none are available, suggest a flexible option such as a public square or park.
+
+If outdoor weather is unsafe, suggest an indoor alternative.
+
+Afternoon (15:00–18:00)
+
+Pick up to 2 activities with a different theme (e.g., cultural, scenic, shopping).
+
+If no attractions are available, suggest a public space or walkable area not dependent on hours.
+
+If outdoor weather is unsafe, suggest an indoor activity.
+
+Evening (18:00–22:00)
+
+Pick up to 2 restaurants or optional events.
+
+If no suitable venue is available, suggest a casual option such as a local food market or open promenade.
+
+If outdoor weather is unsafe, suggest indoor dining or entertainment.
+
+Key Adjustments
+Defined time slots explicitly:
+
+Morning: 8am–12pm
+
+Midday: 12pm–3pm
+
+Afternoon: 3pm–6pm
+
+Evening: 6pm–10pm
+
+Limited maximum activities per slot to 2.
+
+Added fallback rules:
+
+Public parks or open spaces if no attractions available.
+
+Indoor alternatives if weather is unsafe.
